@@ -1,0 +1,106 @@
+/*Вводит переменные*/
+:root {
+  --light-background-color: #f5f4fa;
+  --primary-color: #212121;
+  --secondary-color: #757575;
+  --accent-color: #2196f3;
+  --total-black: #000000;
+  --total-white: #ffffff;
+}
+/* Добавляет шрифт Roboto всей странице*/
+body {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  background-color: var(--total-white);
+}
+/* Убирает подчеркивание со всех ссылок на странице*/
+a {
+  text-decoration: none;
+}
+/*Убирает буллетпоинты со списков страницы*/
+ul {
+  list-style: none;
+}
+/*Убирает курсив в адресе*/
+address {
+  font-style: normal;
+}
+/*Присваивает шрифт логотипу и базовые свойства шрифта*/
+.logo {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.192;
+  letter-spacing: 0.03em;
+}
+/*Присваивает цвет слову Web из логотипа*/
+.logo-web {
+  color: var(--accent-color);
+}
+/*Присваивает цвет слову Studio из логотипа в шапке страницы*/
+.logo-studio-header {
+  color: var(--total-black);
+}
+/*Присваивает цвет слову Studio из логотипа в подвале страницы*/
+.logo-studio-footer {
+  color: var(--total-white);
+}
+/*Присваивает шрифт ссылкам меню в шапке и базовые свойства шрифта*/
+.menu-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.02em;
+  color: var(--primary-color);
+}
+
+.menu-list .menu-link.current {
+  color: var(--accent-color);
+  text-decoration: underline;
+}
+
+/*Присваивает шрифт ссылкам контактам в шапке и базовые свойства шрифта*/
+.menu-contact-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.02em;
+  color: var(--secondary-color);
+}
+.menu-link:hover,
+.menu-link:focus,
+.menu-contact-link:hover,
+.menu-contact-link:focus {
+  color: var(--accent-color);
+}
+
+/*Добавляет фон в подвале страницы*/
+.page-footer {
+  background: #2f303a;
+}
+/*Стилизирует адрес студии в подвале страницы*/
+.address-item {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+  color: var(--total-white);
+}
+/*Стилизирует контакты студии в подвале страницы*/
+.address-contact > a {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+/*Стилизирует призыв к действию в подвале страницы*/
+.join-title,
+.subscribe-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--total-white);
+}

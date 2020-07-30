@@ -1,0 +1,40 @@
+/*Визуально выделяет активную кнопку - временный стиль*/
+.btn-active {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.625;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--total-white);
+  text-decoration: none;
+  background-color: var(--accent-color);
+  cursor: pointer;
+}
+/*Визуально выделяет неактивные кнопки - временный стиль*/
+.btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.625;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  color: var(--primary-color);
+  background-color: var(--light-background-color);
+  cursor: pointer;
+}
+/*Стилизирует h2-заголовки в секции с названиями проектов студии*/
+.project-name {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--primary-color);
+}
+/*Стилизирует h3-заголовки в секции с детализацией проектов студии*/
+.project-detalization {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.875;
+  letter-spacing: 0.03em;
+  color: var(--secondary-color);
+}
