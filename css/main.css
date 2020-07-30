@@ -1,3 +1,13 @@
+/*Добавляет глобальный border-box*/
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
 /*Вводит переменные*/
 :root {
   --light-background-color: #f5f4fa;
