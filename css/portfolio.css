@@ -39,7 +39,7 @@
   border-radius: 4px;
   cursor: pointer;
 }
-/* Добавляет ховер-эффект кнопкам на странице Портфолио */
+/* Добавляет ховер-эффект кнопкам в Портфолио */
 .btn:hover {
   color: var(--total-white);
   background-color: var(--accent-color);
